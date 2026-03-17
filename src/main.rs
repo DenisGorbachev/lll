@@ -1,6 +1,6 @@
 use clap::Parser;
 use errgonomic::exit_result;
-use rust_pre_public_cli_template::Command;
+use lll::Command;
 use std::process::ExitCode;
 
 #[tokio::main]
