@@ -2,7 +2,7 @@
 name = "lll"
 version = "0.1.0"
 edition = "2024"
-rust-version = "1.93.1"
+rust-version = "1.85.0"
 description = "LLM Linter"
 license = "Apache-2.0 OR MIT"
 homepage = "https://github.com/DenisGorbachev/lll"
@@ -47,6 +47,7 @@ stub-macro = { version = "0.2.1" }
 subtype = { git = "https://github.com/DenisGorbachev/subtype" }
 thiserror = "2.0.17"
 tokio = { version = "1.39.2", features = ["macros", "fs", "net", "rt", "rt-multi-thread"] }
+
 
 
 
