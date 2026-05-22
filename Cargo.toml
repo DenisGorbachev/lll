@@ -2,7 +2,7 @@
 name = "lll"
 version = "0.1.0"
 edition = "2024"
-rust-version = "1.85.0"
+rust-version = "1.93.1"
 description = "LLM Linter"
 license = "Apache-2.0 OR MIT"
 homepage = "https://github.com/DenisGorbachev/lll"
@@ -24,7 +24,7 @@ exclude = [
     "mise.toml",
     "rumdl.toml",
     "rustfmt.toml",
-    "yolobox"
+    ".yolobox"
 ]
 
 [package.metadata.details]
