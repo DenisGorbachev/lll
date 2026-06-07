@@ -2170,8 +2170,8 @@ tokio = { version = "1.39.2", features = ["macros", "fs", "net", "rt", "rt-multi
 if_missing = "error"
 
 [providers]
-keychain = { type = "keychain", service = "rust-pre-public-cli-template" }
-pass = { type = "password-store", prefix = "rust-pre-public-cli-template/" }
+keychain = { type = "keychain", service = "lll" }
+pass = { type = "password-store", prefix = "lll/" }
 ```
 
 ### src/main.rs
